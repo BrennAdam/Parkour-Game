@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\JumpRun.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{A32782FB-52BD-4B93-BC0A-FEB3209B17F8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\JumpRun.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\JumpRunEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{BFD8CD95-324F-4840-A162-E89F27282E8A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\JumpRun">
+			<UniqueIdentifier>{48BC7048-8A31-4549-9EFE-422E57023C76}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\JumpRun\JumpRun.Build.cs">
+			<Filter>Source\JumpRun</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\JumpRun\JumpRun.cpp">
+			<Filter>Source\JumpRun</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\JumpRun\JumpRun.h">
+			<Filter>Source\JumpRun</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\JumpRun\JumpRunGameModeBase.cpp">
+			<Filter>Source\JumpRun</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\JumpRun\JumpRunGameModeBase.h">
+			<Filter>Source\JumpRun</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

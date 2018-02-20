@@ -1,0 +1,1046 @@
+﻿Log file open, 02/19/18 18:46:31
+LogInit:Display: Running engine for game: JumpRun
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(754447016) SRandInit(754447016).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.121691
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.19-23.46.32:807][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.19-23.46.32:807][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.19-23.46.32:845][  0]LogInit: Computer: DESKTOP-67N48PU
+[2018.02.19-23.46.32:845][  0]LogInit: User: AdamBrenn
+[2018.02.19-23.46.32:845][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.19-23.46.32:845][  0]LogInit: High frequency timer resolution =3.117187 MHz
+[2018.02.19-23.46.32:845][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.19-23.46.32:845][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.19-23.46.32:845][  0]LogMemory: Process Physical Memory: 272.25 MB used, 272.25 MB peak
+[2018.02.19-23.46.32:845][  0]LogMemory: Process Virtual Memory: 258.63 MB used, 258.63 MB peak
+[2018.02.19-23.46.32:845][  0]LogMemory: Physical Memory: 6780.27 MB used,  1345.55 MB free, 8125.82 MB total
+[2018.02.19-23.46.32:845][  0]LogMemory: Virtual Memory: 663.78 MB used,  1345.55 MB free, 134217728.00 MB total
+[2018.02.19-23.46.33:264][  0]LogInit: Using OS detected language (en-US).
+[2018.02.19-23.46.33:264][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.19-23.46.33:489][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.19-23.46.36:204][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.19-23.46.36:333][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.02.19-23.46.36:333][  0]LogD3D11RHI:       6061/0/4062 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.02.19-23.46.36:340][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.19-23.46.36:340][  0]LogD3D11RHI:       0/0/4062 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.19-23.46.36:340][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.19-23.46.36:348][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.19-23.46.36:348][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.19-23.46.36:348][  0]LogWindows: EnumDisplayDevices:
+[2018.02.19-23.46.36:348][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.02.19-23.46.36:348][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.02.19-23.46.36:348][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.02.19-23.46.36:348][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.02.19-23.46.36:348][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.19-23.46.36:348][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.02.19-23.46.36:348][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.19-23.46.36:348][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.19-23.46.36:349][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.19-23.46.36:375][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.19-23.46.36:431][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 0)
+[2018.02.19-23.46.36:506][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../Git/FP Platformer/Parkour-Game/JumpRun/Intermediate/Shaders/WorkingDirectory/7584/).
+[2018.02.19-23.46.36:506][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Adam Brenn/AppData/Local/Temp/UnrealShaderWorkingDir/44FDFA034178394EB6B617A4DF54E6CF/'.
+[2018.02.19-23.46.36:506][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.19-23.46.39:739][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.19-23.46.39:835][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.19-23.46.39:927][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.19-23.46.39:992][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.19-23.46.40:084][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.19-23.46.40:189][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.19-23.46.40:271][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.19-23.46.40:323][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.19-23.46.40:363][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.19-23.46.40:432][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.19-23.46.40:487][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.19-23.46.40:583][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.19-23.46.40:676][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.19-23.46.40:733][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.19-23.46.40:796][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.19-23.46.40:903][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.19-23.46.40:903][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.19-23.46.40:951][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.19-23.46.41:155][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.19-23.46.41:192][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.19-23.46.41:245][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.19-23.46.41:319][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.19-23.46.41:384][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.19-23.46.41:450][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.19-23.46.41:450][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.19-23.46.42:452][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.19-23.46.42:864][  0]LogDerivedDataCache: Loaded boot cache 0.41s 90MB C:/Users/Adam Brenn/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.19-23.46.42:864][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Adam Brenn/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.19-23.46.42:864][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Git/FP Platformer/Parkour-Game/JumpRun/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.19-23.46.42:864][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.19-23.46.42:864][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Git/FP Platformer/Parkour-Game/JumpRun/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.19-23.46.42:864][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.19-23.46.42:978][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.19-23.46.42:991][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Adam Brenn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.19-23.46.43:001][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.19-23.46.43:001][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.19-23.46.43:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.19-23.46.43:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.19-23.46.46:083][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.19-23.46.46:154][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.19-23.46.46:384][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.19-23.46.46:490][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.19-23.46.46:547][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.19-23.46.46:547][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.19-23.46.46:547][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.19-23.46.47:598][  0]LogNetVersion: JumpRun , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 835434477)
+[2018.02.19-23.46.47:667][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2018.02.19-23.46.47:801][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.116112 seconds
+[2018.02.19-23.46.47:807][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.19-23.46.47:807][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.02.19-23.46.47:807][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.19-23.46.47:856][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.19-23.47.04:246][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.19-23.47.04:304][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.19-23.47.05:080][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.19-23.47.05:511][  0]SourceControl: Info Source control is disabled
+[2018.02.19-23.47.05:512][  0]SourceControl: Info Source control is disabled
+[2018.02.19-23.47.05:567][  0]SourceControl: Info Source control is disabled
+[2018.02.19-23.47.05:623][  0]SourceControl: Info Source control is disabled
+[2018.02.19-23.47.06:587][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.19-23.47.07:385][  0]LogEngine: Initializing Engine...
+[2018.02.19-23.47.07:385][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.19-23.47.07:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.19-23.47.07:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.19-23.47.07:722][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.19-23.47.07:748][  0]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.19-23.47.07:794][  0]LogInit: FAudioDevice initialized.
+[2018.02.19-23.47.07:853][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Adam Brenn/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.19-23.47.07:861][  0]LogInit: Texture streaming: Enabled
+[2018.02.19-23.47.08:064][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.19-23.47.08:421][  0]LogInit: Transaction tracking system initialized
+[2018.02.19-23.47.08:789][  0]BlueprintLog: New page: Editor Load
+[2018.02.19-23.47.10:124][  0]LocalizationService: Info Localization service is disabled
+[2018.02.19-23.47.11:219][  0]LogConsoleResponse:Display: 
+[2018.02.19-23.47.12:031][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FP Platformer/Parkour-Game/JumpRun/Content/' took 0.01s
+[2018.02.19-23.47.12:031][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.19-23.47.12:031][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.19-23.47.13:627][  0]SourceControl: Info Source control is disabled
+[2018.02.19-23.47.13:627][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.19-23.47.13:627][  0]LightingResults: New page: Lighting Build
+[2018.02.19-23.47.13:664][  0]MapCheck: New page: Map Check
+[2018.02.19-23.47.13:664][  0]LightingResults: New page: Lighting Build
+[2018.02.19-23.47.13:920][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.19-23.47.13:921][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.02.19-23.47.13:942][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.19-23.47.13:955][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.19-23.47.14:006][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.029ms to complete.
+[2018.02.19-23.47.14:006][  0]LogFileHelpers: Loading map 'Template_Default' took 0.380
+[2018.02.19-23.47.14:700][  0]LogCollectionManager: Loaded 0 collections in 0.000895 seconds
+[2018.02.19-23.47.14:888][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FP Platformer/Parkour-Game/JumpRun/Saved/Collections/' took 0.01s
+[2018.02.19-23.47.14:888][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FP Platformer/Parkour-Game/JumpRun/Content/Developers/AdamBrenn/Collections/' took 0.02s
+[2018.02.19-23.47.14:888][  0]LogFileCache: Scanning file cache for directory 'D:/Git/FP Platformer/Parkour-Game/JumpRun/Content/Collections/' took 0.01s
+[2018.02.19-23.47.14:888][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.02.19-23.47.14:902][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2330 classes and 493 folders.
+[2018.02.19-23.47.15:022][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2018.02.19-23.47.15:534][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2018.02.19-23.47.15:638][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2018.02.19-23.47.15:944][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.19-23.47.16:079][  0]LogSlate: Took 0.028511 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.19-23.47.16:100][  0]LogSlate: Took 0.017257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.19-23.47.16:185][  0]LogSlate: Took 0.011680 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.19-23.47.16:566][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2018.02.19-23.47.17:025][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.19-23.47.17:106][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2018.02.19-23.47.17:107][  0]LogLoad: (Engine Initialization) Total time: 49.18 seconds
+[2018.02.19-23.47.17:107][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.25 seconds
+[2018.02.19-23.47.17:107][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.19-23.47.17:446][  0]LogOcInput: OculusInput pre-init called
+[2018.02.19-23.47.17:446][  0]LogHMD: Starting GearVRController plugin
+[2018.02.19-23.47.17:560][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.19-23.47.17:794][  1]LogAssetRegistry: Asset discovery search completed in 30.1493 seconds
+[2018.02.19-23.47.17:796][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.19-23.47.17:796][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2018.02.19-23.48.02:694][892]LogSlate: Took 0.008357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.19-23.48.38:136][587]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.19-23.48.58:990][784]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.19-23.48.59:653][784]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0034 seconds. Added 112 classes and 0 folders.
+[2018.02.19-23.49.01:806][784]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:1).
+[2018.02.19-23.49.07:733][289]LogSlate: Took 0.165782 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.19-23.50.14:989][584]LogSlate: Took 0.020713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.19-23.50.26:622][653]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.JumpRun
+[2018.02.19-23.50.26:622][653]LogTemp: CWD: D:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.19-23.50.26:622][653]LogTemp: Initial Dir: D:\UE_4.16
+[2018.02.19-23.50.26:622][653]LogTemp: Env CWD: D:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.19-23.50.26:622][653]LogTemp: BranchPath = DESKTOP-67N48PU/D/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-67N48PU/D/UE_4.16/Engine/Binaries
+[2018.02.19-23.50.26:622][653]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.19-23.50.26:718][654]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Adam Brenn\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.19-23.53.09:976][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameModes/FP" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/GameModes/FP.uasset" SILENT=true
+[2018.02.19-23.53.10:071][743]LogSavePackage: Save=78.19ms
+[2018.02.19-23.53.10:071][743]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/FPA466EF6747BE761D41A929A6A8FD2503.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/GameModes/FP.uasset'
+[2018.02.19-23.53.10:109][743]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/GameModes/FP.uasset
+[2018.02.19-23.55.05:973][ 90]BlueprintLog: New page: Compile Steve
+[2018.02.19-23.55.12:905][831]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.19-23.55.12:984][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.19-23.55.13:048][831]PIE: New page: PIE session: Untitled_1 (Feb 19, 2018, 1:55:13 PM)
+[2018.02.19-23.55.13:060][831]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.02.19-23.55.13:096][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036167s)
+[2018.02.19-23.55.13:108][831]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.19-23.55.13:108][831]LogPlayLevel: PIE: World Init took: (0.012265s)
+[2018.02.19-23.55.13:109][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.049035s)
+[2018.02.19-23.55.13:189][831]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.19-23.55.13:233][831]LogInit: FAudioDevice initialized.
+[2018.02.19-23.55.13:302][831]LogLoad: Game class is 'FP_C'
+[2018.02.19-23.55.13:402][831]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.02.19-18.55.13
+[2018.02.19-23.55.13:410][831]LogWorld: Bringing up level for play took: 0.007555
+[2018.02.19-23.55.14:553][831]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0036 seconds. Added 11 classes and 0 folders.
+[2018.02.19-23.55.14:562][831]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.19-23.55.14:562][831]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.19-23.55.14:562][831]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.19-23.55.14:646][831]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.19-23.55.14:649][831]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.465
+[2018.02.19-23.55.47:397][361]BlueprintLog: New page: Compile Steve
+[2018.02.19-23.57.15:771][ 84]BlueprintLog: New page: Compile Steve
+[2018.02.19-23.57.18:125][342]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.19-23.57.18:138][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.19-23.57.18:138][342]PIE: New page: PIE session: Untitled_1 (Feb 19, 2018, 1:57:18 PM)
+[2018.02.19-23.57.18:138][342]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.02.19-23.57.18:140][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001839s)
+[2018.02.19-23.57.18:140][342]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.19-23.57.18:141][342]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2018.02.19-23.57.18:141][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002891s)
+[2018.02.19-23.57.18:173][342]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.19-23.57.18:218][342]LogInit: FAudioDevice initialized.
+[2018.02.19-23.57.18:267][342]LogLoad: Game class is 'FP_C'
+[2018.02.19-23.57.18:269][342]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.02.19-18.57.18
+[2018.02.19-23.57.18:270][342]LogWorld: Bringing up level for play took: 0.001198
+[2018.02.19-23.57.18:271][342]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.19-23.57.18:271][342]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.19-23.57.18:271][342]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.19-23.57.18:271][342]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.19-23.57.18:271][342]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.09
+[2018.02.19-23.59.12:414][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.02.19-23.59.21:175][614]LogActorFactory: Actor Factory created Cube
+[2018.02.19-23.59.22:305][729]LogActorFactory: Actor Factory created Cube
+[2018.02.19-23.59.38:763][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Steve" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/BluePrints/Steve.uasset" SILENT=true
+[2018.02.19-23.59.38:813][423]LogSavePackage: Save=28.95ms
+[2018.02.19-23.59.38:813][423]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Steve383512154D87B975CCD35596B4B8CA1C.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/BluePrints/Steve.uasset'
+[2018.02.19-23.59.38:818][423]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/BluePrints/Steve.uasset
+[2018.02.19-23.59.47:271][148]BlueprintLog: New page: Compile Steve
+[2018.02.20-00.00.06:553][885]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.00.06:566][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.00.06:566][885]PIE: New page: PIE session: Untitled_1 (Feb 19, 2018, 2:00:06 PM)
+[2018.02.20-00.00.06:566][885]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.02.20-00.00.06:568][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001508s)
+[2018.02.20-00.00.06:569][885]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.20-00.00.06:569][885]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2018.02.20-00.00.06:569][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002916s)
+[2018.02.20-00.00.06:615][885]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.00.06:656][885]LogInit: FAudioDevice initialized.
+[2018.02.20-00.00.06:691][885]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.00.06:693][885]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.02.19-19.00.06
+[2018.02.20-00.00.06:693][885]LogWorld: Bringing up level for play took: 0.001373
+[2018.02.20-00.00.06:694][885]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.00.06:694][885]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.00.06:694][885]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.00.06:695][885]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.00.06:695][885]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.486
+[2018.02.20-00.00.13:881][626]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.00.13:892][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.00.13:892][626]PIE: New page: PIE session: Untitled_1 (Feb 19, 2018, 2:00:13 PM)
+[2018.02.20-00.00.13:892][626]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.02.20-00.00.13:894][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001643s)
+[2018.02.20-00.00.13:895][626]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.20-00.00.13:895][626]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2018.02.20-00.00.13:895][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002673s)
+[2018.02.20-00.00.13:922][626]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.00.13:968][626]LogInit: FAudioDevice initialized.
+[2018.02.20-00.00.14:002][626]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.00.14:004][626]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.02.19-19.00.14
+[2018.02.20-00.00.14:004][626]LogWorld: Bringing up level for play took: 0.000962
+[2018.02.20-00.00.14:004][626]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.00.14:004][626]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.00.14:004][626]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.00.14:005][626]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.00.14:005][626]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.824
+[2018.02.20-00.00.46:974][106]LogSlate: Took 0.009037 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.20-00.00.56:000][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.02.20-00.00.56:057][133]LogSavePackage: Save=56.43ms
+[2018.02.20-00.00.56:057][133]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Untitled_1_Auto11A54A88B4ED735BDD140E4AAC494F293.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2018.02.20-00.00.56:060][133]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2018.02.20-00.00.56:078][133]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.115
+[2018.02.20-00.00.56:078][133]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.115
+[2018.02.20-00.03.10:086][402]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.JumpRun
+[2018.02.20-00.03.10:086][402]LogTemp: CWD: D:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.20-00.03.10:086][402]LogTemp: Initial Dir: D:\UE_4.16
+[2018.02.20-00.03.10:086][402]LogTemp: Env CWD: D:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.20-00.03.10:086][402]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.20-00.03.10:127][403]LogTemp: BranchPath = DESKTOP-67N48PU/D/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-67N48PU/D/UE_4.16/Engine/Binaries
+[2018.02.20-00.03.10:127][403]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Adam Brenn\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.20-00.04.57:974][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Steve" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/BluePrints/Steve.uasset" SILENT=true
+[2018.02.20-00.04.58:009][702]LogSavePackage: Save=30.23ms
+[2018.02.20-00.04.58:009][702]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Steve659CCDA046D72A588C47898E41A3D08C.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/BluePrints/Steve.uasset'
+[2018.02.20-00.04.58:013][702]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/BluePrints/Steve.uasset
+[2018.02.20-00.04.59:631][857]BlueprintLog: New page: Compile Steve
+[2018.02.20-00.05.01:990][ 97]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.05.02:001][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.05.02:001][ 97]PIE: New page: PIE session: Untitled_1 (Feb 19, 2018, 2:05:02 PM)
+[2018.02.20-00.05.02:002][ 97]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.02.20-00.05.02:004][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002052s)
+[2018.02.20-00.05.02:004][ 97]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.20-00.05.02:004][ 97]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2018.02.20-00.05.02:005][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003061s)
+[2018.02.20-00.05.02:038][ 97]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.05.02:085][ 97]LogInit: FAudioDevice initialized.
+[2018.02.20-00.05.02:117][ 97]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.05.02:119][ 97]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.02.19-19.05.02
+[2018.02.20-00.05.02:119][ 97]LogWorld: Bringing up level for play took: 0.001038
+[2018.02.20-00.05.02:120][ 97]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.05.02:120][ 97]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.05.02:120][ 97]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.05.02:120][ 97]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.05.02:120][ 97]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.939
+[2018.02.20-00.06.56:237][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.02.20-00.06.57:268][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.02.20-00.07.43:655][ 26]BlueprintLog: New page: Compile Steve
+[2018.02.20-00.07.46:138][240]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.07.46:149][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.07.46:150][240]PIE: New page: PIE session: Untitled_1 (Feb 19, 2018, 2:07:46 PM)
+[2018.02.20-00.07.46:150][240]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.02.20-00.07.46:152][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001827s)
+[2018.02.20-00.07.46:152][240]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.20-00.07.46:152][240]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2018.02.20-00.07.46:153][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002810s)
+[2018.02.20-00.07.46:179][240]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.07.46:221][240]LogInit: FAudioDevice initialized.
+[2018.02.20-00.07.46:254][240]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.07.46:255][240]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.02.19-19.07.46
+[2018.02.20-00.07.46:256][240]LogWorld: Bringing up level for play took: 0.000810
+[2018.02.20-00.07.46:256][240]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.07.46:256][240]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.07.46:256][240]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.07.46:256][240]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.07.46:256][240]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.075
+[2018.02.20-00.07.56:553][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.02.20-00.07.58:967][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Steve" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/BluePrints/Steve.uasset" SILENT=true
+[2018.02.20-00.07.59:002][ 74]LogSavePackage: Save=32.40ms
+[2018.02.20-00.07.59:002][ 74]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Steve1A06D896422DEA3953F442AE93DE6242.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/BluePrints/Steve.uasset'
+[2018.02.20-00.07.59:007][ 74]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/BluePrints/Steve.uasset
+[2018.02.20-00.08.00:596][263]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.08.00:606][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.08.00:606][263]PIE: New page: PIE session: Untitled_1 (Feb 19, 2018, 2:08:00 PM)
+[2018.02.20-00.08.00:606][263]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.02.20-00.08.00:608][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001469s)
+[2018.02.20-00.08.00:609][263]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.20-00.08.00:609][263]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2018.02.20-00.08.00:609][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002513s)
+[2018.02.20-00.08.00:634][263]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.08.00:674][263]LogInit: FAudioDevice initialized.
+[2018.02.20-00.08.00:703][263]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.08.00:705][263]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.02.19-19.08.00
+[2018.02.20-00.08.00:706][263]LogWorld: Bringing up level for play took: 0.001009
+[2018.02.20-00.08.00:706][263]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.08.00:706][263]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.08.00:706][263]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.08.00:707][263]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.08.00:707][263]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.474
+[2018.02.20-00.09.15:864][706]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.20-00.09.15:941][710]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.JumpRun
+[2018.02.20-00.09.15:941][710]LogTemp: CWD: D:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.20-00.09.15:941][710]LogTemp: Initial Dir: D:\UE_4.16
+[2018.02.20-00.09.15:941][710]LogTemp: Env CWD: D:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.20-00.09.15:941][710]LogTemp: BranchPath = DESKTOP-67N48PU/D/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-67N48PU/D/UE_4.16/Engine/Binaries
+[2018.02.20-00.09.15:960][712]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Adam Brenn\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.20-00.11.07:391][918]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.20-00.11.07:490][924]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.JumpRun
+[2018.02.20-00.11.07:490][924]LogTemp: CWD: D:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.20-00.11.07:490][924]LogTemp: Initial Dir: D:\UE_4.16
+[2018.02.20-00.11.07:490][924]LogTemp: Env CWD: D:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.20-00.11.07:498][925]LogTemp: BranchPath = DESKTOP-67N48PU/D/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-67N48PU/D/UE_4.16/Engine/Binaries
+[2018.02.20-00.11.07:514][927]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Adam Brenn\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.20-00.12.09:933][804]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.20-00.12.20:758][922]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.12.20:771][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.12.20:772][922]PIE: New page: PIE session: Untitled_1 (Feb 19, 2018, 2:12:20 PM)
+[2018.02.20-00.12.20:772][922]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.02.20-00.12.20:773][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001754s)
+[2018.02.20-00.12.20:774][922]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.20-00.12.20:774][922]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2018.02.20-00.12.20:774][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002821s)
+[2018.02.20-00.12.20:803][922]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.12.20:845][922]LogInit: FAudioDevice initialized.
+[2018.02.20-00.12.20:875][922]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.12.20:877][922]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.02.19-19.12.20
+[2018.02.20-00.12.20:877][922]LogWorld: Bringing up level for play took: 0.001137
+[2018.02.20-00.12.20:878][922]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.12.20:878][922]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.12.20:878][922]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.12.20:878][922]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.12.20:878][922]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.303
+[2018.02.20-00.12.31:579][137]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.12.31:590][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.12.31:590][137]PIE: New page: PIE session: Untitled_1 (Feb 19, 2018, 2:12:31 PM)
+[2018.02.20-00.12.31:590][137]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.02.20-00.12.31:592][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001820s)
+[2018.02.20-00.12.31:593][137]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.20-00.12.31:593][137]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2018.02.20-00.12.31:593][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002931s)
+[2018.02.20-00.12.31:690][137]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.12.31:729][137]LogInit: FAudioDevice initialized.
+[2018.02.20-00.12.31:772][137]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.12.31:774][137]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.02.19-19.12.31
+[2018.02.20-00.12.31:852][137]LogWorld: Bringing up level for play took: 0.079297
+[2018.02.20-00.12.31:862][137]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.12.31:862][137]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.12.31:862][137]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.12.31:864][137]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.12.31:864][137]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.682
+[2018.02.20-00.12.42:653][389]Cmd: TRANSACTION UNDO
+[2018.02.20-00.12.42:653][389]LogEditorTransaction: Undo Create Actors
+[2018.02.20-00.12.43:898][521]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.02.20-00.12.48:403][ 55]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.20-00.13.00:117][432]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.13.00:128][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.13.00:128][432]PIE: New page: PIE session: Untitled_1 (Feb 19, 2018, 2:13:00 PM)
+[2018.02.20-00.13.00:128][432]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.02.20-00.13.00:130][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001763s)
+[2018.02.20-00.13.00:131][432]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.20-00.13.00:131][432]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2018.02.20-00.13.00:131][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002843s)
+[2018.02.20-00.13.00:191][432]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.13.00:235][432]LogInit: FAudioDevice initialized.
+[2018.02.20-00.13.00:265][432]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.13.00:267][432]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.02.19-19.13.00
+[2018.02.20-00.13.00:267][432]LogWorld: Bringing up level for play took: 0.001156
+[2018.02.20-00.13.00:268][432]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.13.00:268][432]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.13.00:268][432]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.13.00:268][432]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.13.00:268][432]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.087
+[2018.02.20-00.13.32:536][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Autosaves/Temp/Untitled_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.02.20-00.13.32:606][469]LogSavePackage: Save=70.03ms
+[2018.02.20-00.13.32:606][469]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Untitled_1_Auto22E251D45471BFA07F30B0D985E86E078.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2018.02.20-00.13.32:610][469]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2018.02.20-00.13.32:613][469]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.095
+[2018.02.20-00.13.32:613][469]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.095
+[2018.02.20-00.13.32:616][469]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GameModes/FP] ([1] browsable assets)...
+[2018.02.20-00.13.32:616][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/GameModes/FP]
+[2018.02.20-00.13.32:616][469]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameModes/FP" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Autosaves/Game/GameModes/FP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.02.20-00.13.32:638][469]LogSavePackage: Save=16.04ms
+[2018.02.20-00.13.32:638][469]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/FP_Auto2675C7CC4447819F8A4387A94E93E5285.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Autosaves/Game/GameModes/FP_Auto2.uasset'
+[2018.02.20-00.13.32:640][469]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Autosaves/Game/GameModes/FP_Auto2.uasset
+[2018.02.20-00.13.32:640][469]LogFileHelpers: Auto-saving content packages took 0.026
+[2018.02.20-00.14.40:716][791]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.20-00.14.40:784][794]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.JumpRun
+[2018.02.20-00.14.40:784][794]LogTemp: CWD: D:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.20-00.14.40:784][794]LogTemp: Initial Dir: D:\UE_4.16
+[2018.02.20-00.14.40:784][794]LogTemp: Env CWD: D:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.20-00.14.40:793][795]LogTemp: BranchPath = DESKTOP-67N48PU/D/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-67N48PU/D/UE_4.16/Engine/Binaries
+[2018.02.20-00.14.40:811][797]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Adam Brenn\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.20-00.15.11:090][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestLevel" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.20-00.15.11:152][982]LogSavePackage: Save=40.02ms
+[2018.02.20-00.15.11:152][982]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/TestLevel883D9D0F4782D990E7DD98B0015A98B0.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel.umap'
+[2018.02.20-00.15.11:157][982]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel.umap
+[2018.02.20-00.15.11:169][982]LogFileHelpers: Saving map 'TestLevel' took 0.692
+[2018.02.20-00.15.13:456][248]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.15.13:465][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.15.13:466][248]PIE: New page: PIE session: TestLevel (Feb 19, 2018, 2:15:13 PM)
+[2018.02.20-00.15.13:466][248]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.02.20-00.15.13:467][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001693s)
+[2018.02.20-00.15.13:468][248]LogAIModule: Creating AISystem for world TestLevel
+[2018.02.20-00.15.13:468][248]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2018.02.20-00.15.13:468][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.002723s)
+[2018.02.20-00.15.13:524][248]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.15.13:562][248]LogInit: FAudioDevice initialized.
+[2018.02.20-00.15.13:593][248]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.15.13:595][248]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.02.19-19.15.13
+[2018.02.20-00.15.13:595][248]LogWorld: Bringing up level for play took: 0.001247
+[2018.02.20-00.15.13:596][248]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.15.13:596][248]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.15.13:596][248]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.15.13:596][248]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.15.13:596][248]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.415
+[2018.02.20-00.15.49:982][456]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.20-00.16.33:827][406]BlueprintLog: New page: Compile Steve
+[2018.02.20-00.16.38:349][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameModes/FP" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/GameModes/FP.uasset" SILENT=true
+[2018.02.20-00.16.38:359][807]LogSavePackage: Save=7.19ms
+[2018.02.20-00.16.38:359][807]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/FP928E88A74394003C0251179178A6291A.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/GameModes/FP.uasset'
+[2018.02.20-00.16.38:363][807]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/GameModes/FP.uasset
+[2018.02.20-00.16.40:884][ 79]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.16.40:894][ 79]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.16.40:894][ 79]PIE: New page: PIE session: TestLevel (Feb 19, 2018, 2:16:40 PM)
+[2018.02.20-00.16.40:894][ 79]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.02.20-00.16.40:897][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002322s)
+[2018.02.20-00.16.40:898][ 79]LogAIModule: Creating AISystem for world TestLevel
+[2018.02.20-00.16.40:898][ 79]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2018.02.20-00.16.40:898][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003526s)
+[2018.02.20-00.16.40:925][ 79]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.16.40:969][ 79]LogInit: FAudioDevice initialized.
+[2018.02.20-00.16.41:000][ 79]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.16.41:003][ 79]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.02.19-19.16.41
+[2018.02.20-00.16.41:003][ 79]LogWorld: Bringing up level for play took: 0.001621
+[2018.02.20-00.16.41:004][ 79]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.16.41:004][ 79]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.16.41:004][ 79]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.16.41:005][ 79]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.16.41:005][ 79]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.176
+[2018.02.20-00.16.51:684][326]MapCheck: New page: Map Check
+[2018.02.20-00.16.51:716][326]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.20-00.16.51:717][326]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.20-00.16.52:992][326]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.02.20-00.16.53:087][326]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.02.20-00.16.53:097][326]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.02.20-00.16.53:108][326]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.02.20-00.16.53:117][326]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.02.20-00.16.54:759][326]TextureStreamingBuild:Display: Compiling optional shaders took 1.821 seconds.
+[2018.02.20-00.16.54:801][326]LogLevel:Display: Export Material TexCoord Scales took 0.041 seconds.
+[2018.02.20-00.16.54:815][326]TextureStreamingBuild:Display: Build Texture Streaming took 0.014 seconds.
+[2018.02.20-00.16.54:839][326]LightingResults: New page: Lighting Build - Feb 19, 2018, 2:16:54 PM
+[2018.02.20-00.16.55:213][326]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.20-00.16.55:326][326]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.20-00.16.55:349][326]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.20-00.16.56:376][326]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.20-00.16.56:376][326]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7584
+[2018.02.20-00.16.59:187][326]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.20-00.16.59:202][326]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.20-00.16.59:202][326]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.20-00.16.59:202][326]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.20-00.16.59:202][326]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.20-00.16.59:202][326]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.20-00.16.59:380][326]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.02.20-00.16.59:380][326]MapCheck: New page: TestLevel - Feb 19, 2018, 2:16:59 PM
+[2018.02.20-00.16.59:403][326]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2018.02.20-00.16.59:460][326]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 80.024ms to complete.
+[2018.02.20-00.16.59:482][326]LogEditorBuildUtils: Build time 0:07
+[2018.02.20-00.16.59:551][326]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2018.02.20-00.16.59:568][326]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2018.02.20-00.16.59:709][327]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2018.02.20-00.16.59:714][327]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2018.02.20-00.16.59:740][328]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2018.02.20-00.16.59:746][328]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2018.02.20-00.16.59:766][329]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.02.20-00.16.59:773][329]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2018.02.20-00.17.02:700][390]Job is a success!
+[2018.02.20-00.17.02:883][391]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.02.20-00.17.02:883][391]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.02.20-00.17.02:883][391]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.02.20-00.17.02:883][391]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.02.20-00.17.02:883][391]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.02.20-00.17.02:884][391]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 256X128)
+[2018.02.20-00.17.02:906][391]Lightmass on DESKTOP-67N48PU: 651 ms total, 106 ms importing, 9 ms setup, 123 ms photons, 361 ms processing, 0 ms extra exporting [3/3 mappings]. Threads: 1.41 sec total, 332 ms processing.
+[2018.02.20-00.17.02:934][391]LogStaticLightingSystem: Illumination: 8.06 sec (74 ms encoding lightmaps, 10 ms encoding shadowmaps)
+[2018.02.20-00.17.02:934][391]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.02.20-00.17.02:934][391]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.02.20-00.17.03:192][391]DumpUnbuiltLightIteractions
+[2018.02.20-00.17.03:192][391]Lights with unbuilt interactions: 0
+[2018.02.20-00.17.03:192][391]
+[2018.02.20-00.17.03:192][391]Primitives with unbuilt interactions: 0
+[2018.02.20-00.17.03:213][392]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.20-00.17.03:213][392]MapCheck: New page: TestLevel - Feb 19, 2018, 2:17:03 PM
+[2018.02.20-00.17.03:290][392]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.806ms to complete.
+[2018.02.20-00.17.05:343][629]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.17.05:353][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.17.05:353][629]PIE: New page: PIE session: TestLevel (Feb 19, 2018, 2:17:05 PM)
+[2018.02.20-00.17.05:353][629]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.02.20-00.17.05:355][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001984s)
+[2018.02.20-00.17.05:356][629]LogAIModule: Creating AISystem for world TestLevel
+[2018.02.20-00.17.05:356][629]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2018.02.20-00.17.05:356][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003049s)
+[2018.02.20-00.17.05:383][629]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.17.05:428][629]LogInit: FAudioDevice initialized.
+[2018.02.20-00.17.05:460][629]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.17.05:462][629]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.02.19-19.17.05
+[2018.02.20-00.17.05:463][629]LogWorld: Bringing up level for play took: 0.001703
+[2018.02.20-00.17.05:463][629]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.17.05:463][629]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.17.05:463][629]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.17.05:464][629]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.17.05:464][629]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.283
+[2018.02.20-00.17.17:039][979]Cmd: DELETE
+[2018.02.20-00.17.17:039][979]Cmd: ACTOR DELETE
+[2018.02.20-00.17.17:205][979]LogEditorActor: Deleted Actor: PlayerStart
+[2018.02.20-00.17.17:220][979]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2018.02.20-00.17.18:592][143]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.17.18:602][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.17.18:602][143]PIE: New page: PIE session: TestLevel (Feb 19, 2018, 2:17:18 PM)
+[2018.02.20-00.17.18:602][143]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.02.20-00.17.18:604][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001853s)
+[2018.02.20-00.17.18:605][143]LogAIModule: Creating AISystem for world TestLevel
+[2018.02.20-00.17.18:605][143]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2018.02.20-00.17.18:605][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.002728s)
+[2018.02.20-00.17.18:633][143]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.17.18:675][143]LogInit: FAudioDevice initialized.
+[2018.02.20-00.17.18:706][143]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.17.18:708][143]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.02.19-19.17.18
+[2018.02.20-00.17.18:708][143]LogWorld: Bringing up level for play took: 0.001185
+[2018.02.20-00.17.18:709][143]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.17.18:709][143]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.17.18:709][143]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.17.18:709][143]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.17.18:709][143]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.472
+[2018.02.20-00.17.21:305][445]Cmd: TRANSACTION UNDO
+[2018.02.20-00.17.21:305][445]LogEditorTransaction: Undo Delete Actors
+[2018.02.20-00.17.36:866][246]LogEditorViewport: Clicking on Actor (LMB): Steve_C (Steve)
+[2018.02.20-00.17.43:641][ 36]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.17.43:651][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.17.43:651][ 36]PIE: New page: PIE session: TestLevel (Feb 19, 2018, 2:17:43 PM)
+[2018.02.20-00.17.43:651][ 36]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.02.20-00.17.43:653][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001974s)
+[2018.02.20-00.17.43:654][ 36]LogAIModule: Creating AISystem for world TestLevel
+[2018.02.20-00.17.43:654][ 36]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2018.02.20-00.17.43:654][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.002991s)
+[2018.02.20-00.17.43:716][ 36]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.17.43:774][ 36]LogInit: FAudioDevice initialized.
+[2018.02.20-00.17.43:804][ 36]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.17.43:806][ 36]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.02.19-19.17.43
+[2018.02.20-00.17.43:806][ 36]LogWorld: Bringing up level for play took: 0.001206
+[2018.02.20-00.17.43:806][ 36]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.17.43:806][ 36]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.17.43:806][ 36]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.17.43:807][ 36]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.17.43:807][ 36]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.626
+[2018.02.20-00.18.03:964][410]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.18.03:974][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.18.03:974][410]PIE: New page: PIE session: TestLevel (Feb 19, 2018, 2:18:03 PM)
+[2018.02.20-00.18.03:974][410]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.02.20-00.18.03:976][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001772s)
+[2018.02.20-00.18.03:976][410]LogAIModule: Creating AISystem for world TestLevel
+[2018.02.20-00.18.03:976][410]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2018.02.20-00.18.03:977][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.002770s)
+[2018.02.20-00.18.04:033][410]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.18.04:075][410]LogInit: FAudioDevice initialized.
+[2018.02.20-00.18.04:107][410]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.18.04:110][410]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.02.19-19.18.04
+[2018.02.20-00.18.04:110][410]LogWorld: Bringing up level for play took: 0.001488
+[2018.02.20-00.18.04:110][410]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.18.04:110][410]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.18.04:110][410]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.18.04:111][410]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.18.04:111][410]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.93
+[2018.02.20-00.18.22:416][570]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.18.22:428][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.18.22:428][570]PIE: New page: PIE session: TestLevel (Feb 19, 2018, 2:18:22 PM)
+[2018.02.20-00.18.22:428][570]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.02.20-00.18.22:430][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002040s)
+[2018.02.20-00.18.22:431][570]LogAIModule: Creating AISystem for world TestLevel
+[2018.02.20-00.18.22:431][570]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2018.02.20-00.18.22:431][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003101s)
+[2018.02.20-00.18.22:483][570]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.18.22:526][570]LogInit: FAudioDevice initialized.
+[2018.02.20-00.18.22:557][570]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.18.22:559][570]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.02.19-19.18.22
+[2018.02.20-00.18.22:560][570]LogWorld: Bringing up level for play took: 0.001412
+[2018.02.20-00.18.22:560][570]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.18.22:560][570]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.18.22:560][570]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.18.22:561][570]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.18.22:561][570]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.621
+[2018.02.20-00.18.26:716][ 48]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.18.26:726][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.18.26:726][ 48]PIE: New page: PIE session: TestLevel (Feb 19, 2018, 2:18:26 PM)
+[2018.02.20-00.18.26:726][ 48]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.02.20-00.18.26:728][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002076s)
+[2018.02.20-00.18.26:729][ 48]LogAIModule: Creating AISystem for world TestLevel
+[2018.02.20-00.18.26:729][ 48]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2018.02.20-00.18.26:729][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003133s)
+[2018.02.20-00.18.26:787][ 48]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.18.26:827][ 48]LogInit: FAudioDevice initialized.
+[2018.02.20-00.18.26:856][ 48]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.18.26:858][ 48]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.02.19-19.18.26
+[2018.02.20-00.18.26:859][ 48]LogWorld: Bringing up level for play took: 0.001373
+[2018.02.20-00.18.26:859][ 48]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.18.26:859][ 48]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.18.26:859][ 48]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.18.26:859][ 48]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.18.26:859][ 48]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.322
+[2018.02.20-00.18.52:232][ 26]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2018.02.20-00.18.59:921][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.18.59:921][924]PIE: New page: PIE session: TestLevel (Feb 19, 2018, 2:18:59 PM)
+[2018.02.20-00.18.59:921][924]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.02.20-00.18.59:923][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001963s)
+[2018.02.20-00.18.59:924][924]LogAIModule: Creating AISystem for world TestLevel
+[2018.02.20-00.18.59:924][924]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2018.02.20-00.18.59:924][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.002880s)
+[2018.02.20-00.18.59:952][924]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.18.59:995][924]LogInit: FAudioDevice initialized.
+[2018.02.20-00.19.00:025][924]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.19.00:027][924]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.02.19-19.19.00
+[2018.02.20-00.19.00:028][924]LogWorld: Bringing up level for play took: 0.001222
+[2018.02.20-00.19.00:028][924]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.19.00:028][924]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.19.00:028][924]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.19.00:029][924]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.19.00:029][924]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.848
+[2018.02.20-00.19.16:548][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.02.20-00.19.17:139][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestLevel" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.20-00.19.17:194][921]LogSavePackage: Save=35.91ms
+[2018.02.20-00.19.17:194][921]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/TestLevel5B48D11A4818FB3B7A73019F6A92DDAC.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel.umap'
+[2018.02.20-00.19.17:198][921]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel.umap
+[2018.02.20-00.19.17:210][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestLevel_BuiltData" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel_BuiltData.uasset" SILENT=true
+[2018.02.20-00.19.17:221][921]LogSavePackage: Save=9.16ms
+[2018.02.20-00.19.17:221][921]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/TestLevel_BuiltDataAF8E024649BA8B30F3571DB3E16BD34B.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel_BuiltData.uasset'
+[2018.02.20-00.19.17:225][921]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel_BuiltData.uasset
+[2018.02.20-00.19.19:497][190]LogEditorViewport: Clicking on Actor (LMB): Steve_C (Steve)
+[2018.02.20-00.19.22:513][535]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.20-00.22.01:500][ 53]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.20-00.22.01:510][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.20-00.22.01:510][ 53]PIE: New page: PIE session: TestLevel (Feb 19, 2018, 2:22:01 PM)
+[2018.02.20-00.22.01:510][ 53]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.02.20-00.22.01:513][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002241s)
+[2018.02.20-00.22.01:513][ 53]LogAIModule: Creating AISystem for world TestLevel
+[2018.02.20-00.22.01:513][ 53]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2018.02.20-00.22.01:514][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003325s)
+[2018.02.20-00.22.01:567][ 53]LogInit: XAudio2 using 'Headset Earphone (2- Razer ManO'War)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.20-00.22.01:609][ 53]LogInit: FAudioDevice initialized.
+[2018.02.20-00.22.01:641][ 53]LogLoad: Game class is 'FP_C'
+[2018.02.20-00.22.01:644][ 53]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.02.19-19.22.01
+[2018.02.20-00.22.01:644][ 53]LogWorld: Bringing up level for play took: 0.001372
+[2018.02.20-00.22.01:645][ 53]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.22.01:645][ 53]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.20-00.22.01:645][ 53]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.22.01:645][ 53]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.20-00.22.01:645][ 53]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.464
+[2018.02.20-00.22.38:978][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestLevel" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.02.20-00.22.39:028][447]LogSavePackage: Save=31.28ms
+[2018.02.20-00.22.39:028][447]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/TestLevel80822F004EB98450E0C6809155610897.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel.umap'
+[2018.02.20-00.22.39:032][447]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel.umap
+[2018.02.20-00.22.39:045][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestLevel_BuiltData" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel_BuiltData.uasset" SILENT=true
+[2018.02.20-00.22.39:058][447]LogSavePackage: Save=9.67ms
+[2018.02.20-00.22.39:058][447]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/TestLevel_BuiltData02AB30DA415CE5747866FFBB1D1558EF.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel_BuiltData.uasset'
+[2018.02.20-00.22.39:061][447]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/TestLevel_BuiltData.uasset
+[2018.02.20-00.22.43:495][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Steve" FILE="../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/BluePrints/Steve.uasset" SILENT=true
+[2018.02.20-00.22.43:530][747]LogSavePackage: Save=30.34ms
+[2018.02.20-00.22.43:530][747]LogSavePackage: Moving '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Saved/Steve2344BF32409E0708A3E9348B51D75939.tmp' to '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/BluePrints/Steve.uasset'
+[2018.02.20-00.22.43:535][747]LogSavePackage:Display: Finished SavePackage ../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/BluePrints/Steve.uasset
+[2018.02.20-00.22.43:774][747]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.20-00.22.43:855][747]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.20-00.22.44:134][748]Cmd: QUIT_EDITOR
+[2018.02.20-00.22.45:044][748]LogExit: Preparing to exit.
+[2018.02.20-00.22.46:201][748]LogDirectoryWatcher: A directory notification failed for 'D:/Git/FP Platformer/Parkour-Game/JumpRun/Content/', and we were unable to create a new request.
+[2018.02.20-00.22.46:385][748]LogExit: Editor shut down
+[2018.02.20-00.22.46:389][748]LogExit: Transaction tracking system shut down
+[2018.02.20-00.22.47:683][748]LogObj: Freed 0b from 0 cluster array pools.
+[2018.02.20-00.22.47:683][748]LogExit: Object subsystem successfully closed.
+[2018.02.20-00.22.47:813][748]LogD3D11RHI: Shutdown
+[2018.02.20-00.22.47:813][748]LogD3D11RHI: CleanupD3DDevice
+[2018.02.20-00.22.47:928][748]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.20-00.22.48:595][748]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (536)
+[2018.02.20-00.22.48:595][748]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2018.02.20-00.22.48:595][748]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (532)
+[2018.02.20-00.22.48:595][748]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2018.02.20-00.22.48:595][748]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2018.02.20-00.22.48:610][748]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2018.02.20-00.22.48:619][748]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2018.02.20-00.22.48:619][748]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2018.02.20-00.22.48:619][748]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2018.02.20-00.22.48:630][748]LogDirectoryWatcher: A directory notification for 'D:/UE_4.16/FeaturePacks/' was aborted.
+[2018.02.20-00.22.48:644][748]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2018.02.20-00.22.48:644][748]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2018.02.20-00.22.48:644][748]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2018.02.20-00.22.48:644][748]LogDirectoryWatcher: A directory notification for 'D:/Git/FP Platformer/Parkour-Game/JumpRun/Content/Collections/' was aborted.
+[2018.02.20-00.22.48:644][748]LogDirectoryWatcher: A directory notification for 'D:/Git/FP Platformer/Parkour-Game/JumpRun/Content/Developers/AdamBrenn/Collections/' was aborted.
+[2018.02.20-00.22.48:644][748]LogDirectoryWatcher: A directory notification for 'D:/Git/FP Platformer/Parkour-Game/JumpRun/Saved/Collections/' was aborted.
+[2018.02.20-00.22.48:644][748]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2018.02.20-00.22.48:651][748]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2018.02.20-00.22.48:651][748]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2018.02.20-00.22.48:668][748]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2018.02.20-00.22.48:668][748]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2018.02.20-00.22.48:668][748]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2018.02.20-00.22.48:668][748]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2018.02.20-00.22.48:668][748]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2018.02.20-00.22.48:668][748]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2018.02.20-00.22.48:672][748]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2018.02.20-00.22.48:677][748]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2018.02.20-00.22.48:689][748]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2018.02.20-00.22.48:699][748]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2018.02.20-00.22.48:699][748]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2018.02.20-00.22.48:758][748]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2018.02.20-00.22.48:758][748]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2018.02.20-00.22.48:758][748]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2018.02.20-00.22.48:758][748]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2018.02.20-00.22.48:758][748]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2018.02.20-00.22.48:758][748]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2018.02.20-00.22.48:758][748]LogModuleManager: Shutting down and abandoning module Media (473)
+[2018.02.20-00.22.48:758][748]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2018.02.20-00.22.48:758][748]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2018.02.20-00.22.48:758][748]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2018.02.20-00.22.48:776][748]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2018.02.20-00.22.48:778][748]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2018.02.20-00.22.48:778][748]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2018.02.20-00.22.48:778][748]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2018.02.20-00.22.48:778][748]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2018.02.20-00.22.48:778][748]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2018.02.20-00.22.48:799][748]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2018.02.20-00.22.48:810][748]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2018.02.20-00.22.48:834][748]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2018.02.20-00.22.48:849][748]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2018.02.20-00.22.48:849][748]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2018.02.20-00.22.48:849][748]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2018.02.20-00.22.48:849][748]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2018.02.20-00.22.48:849][748]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2018.02.20-00.22.49:330][748]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2018.02.20-00.22.49:330][748]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2018.02.20-00.22.49:330][748]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2018.02.20-00.22.49:346][748]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2018.02.20-00.22.49:348][748]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2018.02.20-00.22.49:348][748]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2018.02.20-00.22.49:355][748]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2018.02.20-00.22.49:363][748]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2018.02.20-00.22.49:382][748]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2018.02.20-00.22.49:389][748]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2018.02.20-00.22.49:389][748]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2018.02.20-00.22.49:395][748]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2018.02.20-00.22.49:403][748]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2018.02.20-00.22.49:403][748]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2018.02.20-00.22.49:408][748]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2018.02.20-00.22.49:408][748]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2018.02.20-00.22.49:409][748]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2018.02.20-00.22.49:409][748]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2018.02.20-00.22.49:409][748]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2018.02.20-00.22.49:409][748]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2018.02.20-00.22.49:427][748]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2018.02.20-00.22.49:435][748]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2018.02.20-00.22.49:440][748]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2018.02.20-00.22.49:448][748]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2018.02.20-00.22.49:501][748]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2018.02.20-00.22.49:505][748]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2018.02.20-00.22.49:518][748]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2018.02.20-00.22.49:534][748]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2018.02.20-00.22.49:534][748]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2018.02.20-00.22.49:543][748]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2018.02.20-00.22.49:543][748]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2018.02.20-00.22.49:568][748]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2018.02.20-00.22.49:568][748]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2018.02.20-00.22.49:568][748]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2018.02.20-00.22.49:586][748]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2018.02.20-00.22.49:587][748]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2018.02.20-00.22.49:607][748]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2018.02.20-00.22.49:613][748]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2018.02.20-00.22.49:623][748]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2018.02.20-00.22.49:627][748]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2018.02.20-00.22.49:639][748]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2018.02.20-00.22.49:639][748]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2018.02.20-00.22.49:639][748]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2018.02.20-00.22.49:639][748]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2018.02.20-00.22.49:639][748]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2018.02.20-00.22.49:668][748]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2018.02.20-00.22.49:668][748]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2018.02.20-00.22.49:668][748]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2018.02.20-00.22.49:668][748]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2018.02.20-00.22.49:668][748]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2018.02.20-00.22.49:668][748]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2018.02.20-00.22.49:668][748]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2018.02.20-00.22.49:668][748]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2018.02.20-00.22.49:669][748]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2018.02.20-00.22.49:844][748]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2018.02.20-00.22.49:850][748]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2018.02.20-00.22.49:850][748]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2018.02.20-00.22.49:850][748]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2018.02.20-00.22.49:855][748]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2018.02.20-00.22.49:868][748]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2018.02.20-00.22.49:868][748]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2018.02.20-00.22.49:868][748]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2018.02.20-00.22.49:868][748]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2018.02.20-00.22.49:868][748]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2018.02.20-00.22.49:876][748]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2018.02.20-00.22.49:876][748]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2018.02.20-00.22.49:876][748]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2018.02.20-00.22.49:895][748]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2018.02.20-00.22.49:895][748]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2018.02.20-00.22.49:899][748]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2018.02.20-00.22.49:899][748]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2018.02.20-00.22.49:900][748]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2018.02.20-00.22.49:900][748]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2018.02.20-00.22.49:900][748]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2018.02.20-00.22.49:900][748]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2018.02.20-00.22.49:900][748]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2018.02.20-00.22.49:920][748]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2018.02.20-00.22.49:921][748]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2018.02.20-00.22.49:921][748]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2018.02.20-00.22.49:933][748]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2018.02.20-00.22.49:933][748]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2018.02.20-00.22.49:955][748]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2018.02.20-00.22.49:966][748]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2018.02.20-00.22.49:986][748]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2018.02.20-00.22.49:996][748]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2018.02.20-00.22.49:996][748]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2018.02.20-00.22.49:996][748]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2018.02.20-00.22.49:996][748]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2018.02.20-00.22.50:008][748]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2018.02.20-00.22.50:020][748]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2018.02.20-00.22.50:031][748]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2018.02.20-00.22.50:046][748]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.02.20-00.22.50:050][748]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.02.20-00.22.50:057][748]LogDirectoryWatcher: A directory notification for 'D:/Git/FP Platformer/Parkour-Game/JumpRun/Binaries/Win64' was aborted.
+[2018.02.20-00.22.50:080][748]LogModuleManager: Shutting down and abandoning module JumpRun (248)
+[2018.02.20-00.22.50:080][748]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.02.20-00.22.50:091][748]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.02.20-00.22.50:091][748]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.02.20-00.22.50:091][748]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.02.20-00.22.50:091][748]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.02.20-00.22.50:097][748]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.02.20-00.22.50:198][748]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.02.20-00.22.50:317][748]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.02.20-00.22.50:330][748]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.02.20-00.22.50:339][748]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.02.20-00.22.50:339][748]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.02.20-00.22.50:348][748]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.02.20-00.22.50:348][748]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.02.20-00.22.50:355][748]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.02.20-00.22.50:355][748]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.02.20-00.22.50:365][748]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.02.20-00.22.50:365][748]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.02.20-00.22.50:383][748]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.02.20-00.22.50:383][748]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.02.20-00.22.50:395][748]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.02.20-00.22.50:395][748]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.02.20-00.22.50:407][748]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.02.20-00.22.50:414][748]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.02.20-00.22.50:425][748]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.02.20-00.22.50:426][748]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.02.20-00.22.50:447][748]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.02.20-00.22.50:447][748]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.02.20-00.22.50:462][748]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.02.20-00.22.50:470][748]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.02.20-00.22.50:491][748]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.02.20-00.22.50:520][748]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.02.20-00.22.50:548][748]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.02.20-00.22.50:548][748]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.02.20-00.22.50:548][748]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.02.20-00.22.50:563][748]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.02.20-00.22.50:563][748]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.02.20-00.22.50:590][748]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.02.20-00.22.50:590][748]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.02.20-00.22.50:590][748]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.02.20-00.22.50:590][748]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.02.20-00.22.50:590][748]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.02.20-00.22.50:590][748]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.02.20-00.22.50:641][748]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.20-00.22.50:641][748]LogDirectoryWatcher: A directory notification for '../../../../Git/FP Platformer/Parkour-Game/JumpRun/Content/' was aborted.
+[2018.02.20-00.22.50:642][748]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.20-00.22.50:642][748]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.02.20-00.22.50:662][748]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.02.20-00.22.50:667][748]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.02.20-00.22.50:667][748]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.02.20-00.22.50:667][748]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.02.20-00.22.50:667][748]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.02.20-00.22.50:685][748]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.02.20-00.22.50:690][748]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.02.20-00.22.50:695][748]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.02.20-00.22.50:715][748]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.02.20-00.22.50:799][748]LogDerivedDataCache: Shutdown
+[2018.02.20-00.22.50:799][748]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.02.20-00.22.50:800][748]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.02.20-00.22.50:800][748]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.02.20-00.22.50:817][748]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.02.20-00.22.50:820][748]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.02.20-00.22.50:827][748]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.02.20-00.22.50:832][748]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.02.20-00.22.50:832][748]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.02.20-00.22.50:832][748]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.02.20-00.22.50:832][748]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.02.20-00.22.50:840][748]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.02.20-00.22.50:847][748]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.02.20-00.22.50:847][748]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.02.20-00.22.50:847][748]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.02.20-00.22.50:852][748]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.02.20-00.22.50:856][748]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.02.20-00.22.50:879][748]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.02.20-00.22.50:879][748]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.02.20-00.22.50:888][748]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.02.20-00.22.50:888][748]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.02.20-00.22.50:889][748]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.02.20-00.22.50:889][748]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.02.20-00.22.50:889][748]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.02.20-00.22.50:889][748]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.02.20-00.22.50:889][748]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.02.20-00.22.50:889][748]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.02.20-00.22.50:889][748]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.02.20-00.22.50:889][748]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.20-00.22.50:889][748]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.20-00.22.50:889][748]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.02.20-00.22.50:898][748]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.02.20-00.22.50:898][748]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.02.20-00.22.50:918][748]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.20-00.22.50:918][748]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.20-00.22.50:918][748]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.20-00.22.50:918][748]LogOnline:Display: Unloading online subsystem: NULL
+[2018.02.20-00.22.50:934][748]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.20-00.22.50:947][748]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.20-00.22.50:947][748]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.20-00.22.50:952][748]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B72D344E5-4FE9-A61F-6D53-D88B8CFEE7E3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=428496fc4bd27350dcd324a2c9f7f599%7Ca31c4a48c02c470a9d2d538fba7b7a49%7C6c08765c-29da-40d3-a326-669c53b40ddd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.20-00.22.50:976][748]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.20-00.22.50:982][748]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.02.20-00.22.50:991][748]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.02.20-00.22.50:999][748]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.02.20-00.22.50:999][748]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.02.20-00.22.51:005][748]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.02.20-00.22.51:005][748]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.02.20-00.22.51:005][748]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.02.20-00.22.51:005][748]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.02.20-00.22.51:010][748]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.02.20-00.22.51:020][748]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.02.20-00.22.51:020][748]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.02.20-00.22.51:024][748]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.02.20-00.22.51:024][748]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.02.20-00.22.51:024][748]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.02.20-00.22.51:024][748]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.02.20-00.22.51:040][748]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.20-00.22.51:046][748]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.20-00.22.51:046][748]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.20-00.22.51:061][748]LogExit: Exiting.
+[2018.02.20-00.22.51:070][748]Log file closed, 02/19/18 19:22:51

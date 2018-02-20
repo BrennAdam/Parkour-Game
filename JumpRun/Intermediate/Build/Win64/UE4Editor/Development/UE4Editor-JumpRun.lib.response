@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-JumpRun.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Git\FP Platformer\Parkour-Game\JumpRun\Intermediate\Build\Win64\UE4Editor\Development\JumpRun\JumpRun.cpp.obj"
+"D:\Git\FP Platformer\Parkour-Game\JumpRun\Intermediate\Build\Win64\UE4Editor\Development\JumpRun\JumpRunGameModeBase.cpp.obj"
+"D:\Git\FP Platformer\Parkour-Game\JumpRun\Intermediate\Build\Win64\UE4Editor\Development\JumpRun\JumpRun.generated.cpp.obj"
+"D:\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\JumpRun\PCLaunch.rc.res"
+"D:\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Git\FP Platformer\Parkour-Game\JumpRun\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-JumpRun.lib"
